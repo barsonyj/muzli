@@ -1,0 +1,85 @@
+body {
+  background-image: linear-gradient(white, lightskyblue);
+  background-attachment: fixed;
+}
+
+.app {
+  width: 90%; margin: 0px auto;
+  display: flex; gap: 10px; flex-direction: column;
+}
+.hbox {
+  display: flex; gap: 10px; align-items: flex-start;
+}
+.vbox {
+  display: flex; gap: 10px; flex-direction: column;
+  flex: 1;
+}
+.doboz {
+  background-color: rgba(0, 0, 255, 0.1);
+  border: 1px solid gray; border-radius: 5px;
+  padding: 10px;
+}
+
+.login .gomb {
+  padding: 5px 12px;
+  background-color: cornflowerblue; color: white;
+  border: 1px solid black; border-radius: 3px;
+}
+.login .mezo {
+  padding: 5px;
+  border: 1px solid black; border-radius: 3px;
+}
+.login .space {
+  display: flex; justify-content: space-between;
+}
+.login .urlap {
+  display: flex; gap: 5px; align-items: center;
+}
+.login .urlap .email {
+  width: 200px;
+}
+.login .urlap .jelszo {
+  width: 100px;
+}
+.login .info {
+  display: flex; gap: 5px; justify-content: flex-end; align-items: center;
+}
+
+.users div {
+  padding: 5px; cursor: pointer;
+}
+.users .item:hover {
+  color: blue;
+}
+.users .selected {
+  background-color: cornflowerblue; color: white; padding: 4px;
+  border: 1px solid gray; border-radius: 3px;
+}
+
+.lista {
+  display: flex; flex-direction: column; gap: 10px;
+  flex-basis: 80%;
+}
+.lista .ido {
+  font-size: 8pt; font-style: italic; color: gray; text-align: right;
+}
+.lista .tolem {
+  width: 40%; padding: 5px; background-color: white; align-self: flex-end;
+  border: 1px solid gray; border-radius: 10px; border-top-right-radius: 0px;  
+  margin-top: 15px;
+}
+.lista .nekem {
+  width: 40%; padding: 5px; background-color: bisque; align-self: flex-start;  
+  border: 1px solid gray; border-radius: 10px; border-top-left-radius: 0px;  
+}
+
+.uzenet {
+  display: flex; justify-content: space-between; gap: 10px;
+}
+.uzenet .mezo {
+  padding: 5px; box-sizing: border-box; width: 100%;
+  border: 1px solid black; border-radius: 3px;
+}
+.uzenet .kuld {
+  font-size: 20pt; color: black; cursor: pointer;
+}
