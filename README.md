@@ -1,6 +1,7 @@
 # Muzli
 
 Ez egy egyszerű **üzenetküldő** alkalmazás.
+> [!NOTE]
 > Van egy kezdőoldal, bejelentkezéssel.  
 > Van regisztráció,<br/>
 > és van Névjegy.
