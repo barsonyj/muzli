@@ -1,8 +1,8 @@
 # Muzli
 
 Ez egy egyszerű **üzenetküldő** alkalmazás.
-> Van egy kezdőoldal, bejelentkezéssel.
-> Van regisztráció,
+> Van egy kezdőoldal, bejelentkezéssel.  
+> Van regisztráció,<br/>
 > és van Névjegy.
 
 Currently, two official plugins are available:
